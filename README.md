@@ -143,7 +143,7 @@ Examples:
     
     [SOLVED]
     
-    <code>chown snort.snort /var/log/snort/barnyard2.waldo </code>
+    chown snort.snort /var/log/snort/barnyard2.waldo 
     
     barnyard2 -c /etc/barnyard2.conf -d /var/log/snort -f snort.u2 -w /var/log/snort/barnyard2.waldo
 
