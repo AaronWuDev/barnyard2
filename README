@@ -153,6 +153,18 @@ Examples:
   1. Using barnyard2 in continuous mode with a waldo file
 
     # ./barnyard2 -c /etc/barnyard2.conf -d /var/snort -f snort.u2 -w /var/snort/snort.waldo
+    
+    [WARNING: Unable to open waldo file '/var/log/snort/barnyard2.waldo' (No such file or directory)]
+    
+    [SOLVED]
+    
+    <b>chown snort.snort /var/log/snort/barnyard2.waldo 
+    
+    barnyard2 -c /etc/barnyard2.conf -d /var/log/snort -f snort.u2 -w /var/log/snort/barnyard2.waldo </b>
+
+
+
+    
 
   2. Using barnyard2 in batch mode
 
